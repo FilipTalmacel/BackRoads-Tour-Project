@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --border-radius: 0.5rem;
+  --letter-spacing: 0.25rem;
+  --transitions: all 0.3s linear;
+  --white: #fff;
+  --gray-1: #102a42;
+  --gray-5: #617d98;
+  --gray-10: #f1f5f8;
+}
+.body {
+  line-height: 1.5;
+}
