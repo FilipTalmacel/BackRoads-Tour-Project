@@ -14,4 +14,6 @@ Updates
 -added FormSpree connection to contact form<br />
 -added Gallery html and CSS<br />
 
-<!-- ===========XX/07/2024=========== <br /> -->
+===========18/07/2024=========== <br />
+<br />
+-added Footer html and CSS<br /> -<br />
