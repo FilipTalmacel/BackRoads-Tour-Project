@@ -13,14 +13,73 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- CSS Link -->
   <link rel="stylesheet" href="./CSS/main.css" />
-  <style></style>
+  <style>
+
+  </style>
 </head>
 
 <body>
   <!-- Header  -->
-  <header class="home">
+  <header class="home" id="home">
     <!-- NavBar Section-->
+    <nav class="navbar">
+      <div class="nav-center">
+
+        <!-- nav Header -->
+        <div class="nav-header">
+          <img src="./Images/logo.svg" class="nav-logo" alt="logo img">
+          <button type="button" class="nav-toggle" id="nav-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+        <!-- end of nav Header -->
+
+        <!-- nav links -->
+        <ul class="nav-links" id="nav-links">
+          <!-- single link  -->
+          <li>
+            <a href="#home" class="nav-link scroll-link">home</a>
+          </li>
+          <!-- single link  -->
+          <li>
+            <a href="#about" class="nav-link scroll-link">about</a>
+          </li>
+          <!-- single link  -->
+          <li>
+            <a href="#services" class="nav-link scroll-link">services</a>
+          </li>
+          <!-- single link  -->
+          <li>
+            <a href="#featured" class="nav-link scroll-link">featured</a>
+          </li>
+          <!-- single link  -->
+          <li>
+            <a href="#gallery" class="nav-link scroll-link">gallery</a>
+          </li>
+        </ul>
+        <!-- end of nav links -->
+
+        <!-- nav icons -->
+        <ul class="nav-icons">
+          <!-- single icon -->
+          <li>
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
+          </li>
+          <!-- single icon -->
+          <li>
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-twitter"></i></a>
+          </li>
+          <!-- single icon -->
+          <li>
+            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-squarespace"></i></a>
+          </li>
+        </ul>
+        <!-- end of nav icons -->
+
+
+      </div>
+    </nav>
     <!-- End of NavBar -->
+
+    <!-- Hero -->
     <div class="hero">
       <div class="hero-banner">
         <h1>continue exploring</h1>
@@ -28,9 +87,10 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quo
           fugiat nobis laudantium beatae dolorem?
         </p>
-        <a href="#featured" class="btn hero-btn scroll-ling">explore tours</a>
+        <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
       </div>
     </div>
+    <!-- end of Hero -->
   </header>
   <!-- End of Header -->
 

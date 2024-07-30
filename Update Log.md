@@ -17,3 +17,8 @@ Updates
 ===========18/07/2024=========== <br />
 <br />
 -added Footer html and CSS<br /> -<br />
+
+===========30/07/2024=========== <br />
+<br />
+-added navbar Html and CSS<br /> -<br />
+-finished project
